@@ -133,7 +133,8 @@ html, body {
             text-align: left;
             padding-left: 3%; }
     #wrap #content section.bgcolor-gray {
-      background: #eeeeed !Important; }
+      background: #eeeeed !Important;
+      height: 1100px; }
       #wrap #content section.bgcolor-gray h1 {
         margin: 0;
         padding-top: 150px; }
@@ -143,11 +144,29 @@ html, body {
         width: 80%;
         margin: 0 auto; }
         #wrap #content section.bgcolor-gray ul li {
-          width: 20%;
+          width: 22%;
           list-style: none;
           float: left;
           display: block;
           height: 300px;
-          margin: 20px 23px; }
+          margin: 20px 15px;
+          cursor: pointer; }
+          #wrap #content section.bgcolor-gray ul li .topimg {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            height: 170px; }
+            #wrap #content section.bgcolor-gray ul li .topimg img {
+              margin-top: 15%; }
+          #wrap #content section.bgcolor-gray ul li .bottomword {
+            text-align: center;
+            color: #656363;
+            font-size: 13px;
+            line-height: 20px; }
+            #wrap #content section.bgcolor-gray ul li .bottomword span {
+              font-weight: bold;
+              color: #595656;
+              font-size: 16px;
+              text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
