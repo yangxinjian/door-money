@@ -20,11 +20,11 @@ html,body{
 			}
 		}
 		nav{
-			width: 48.3%;
+			width: 60%;
 			height: 92px;
 			position: absolute;
 			font-weight: bold;
-			left: 51.7%;
+			left: 50%;
 			top: 20px;
 			ul{
 				width: 90%;
@@ -43,7 +43,7 @@ html,body{
 			}
 		}
 		article{
-			width: 34.4%;
+			width: 50%;
 			height: 130px;
 			margin: 0 auto;
 			text-align: center;
@@ -202,6 +202,92 @@ html,body{
 				}
 			}
 		}
-		
+		.pic{
+			width: 90%;
+			height: 660px;
+			margin: 0 auto;
+			.pic_top{
+				width: 100%;
+				height: 320px;
+				margin-bottom: 30px;
+				float: left;
+				.pic_top_left{
+					position: relative;
+					width: 60%;
+					height:320px;
+					float: left;
+					margin-right: 30px;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+					.model{
+						position: absolute;
+						top: 0;
+						left: 0;
+						background: rgba(0,0,0,.4);
+						width: 100%;
+						height: 100%;
+						color: #fff;
+						article{
+							width:50%;
+							height:50%;
+							margin:10% auto;
+							text-align: center;
+							span{
+								font-size: 20px;
+								font-weight: bold;
+								color: #fff;
+								text-decoration: none;
+							}
+							img{
+								width: 45px;
+								height: 45px;
+								margin-top: 30px;
+							}
+						}
+					}
+				}
+				.pic_top_right{
+					width: 30%;
+					height:320px;
+					float: left;
+					position: relative;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+					.model{
+						position: absolute;
+						top: 0;
+						left: 0;
+						background: rgba(0,0,0,.4);
+						width: 100%;
+						height: 100%;
+						article{
+							width:50%;
+							height:50%;
+							margin:25% auto;
+							text-align: center;
+							color: #fff;
+							span{
+								font-size: 20px;
+								font-weight: bold;
+								color: #fff;
+								text-decoration: none;
+							}
+							img{
+								width: 45px;
+								height: 45px;
+								margin-top: 30px;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
+}
+.ml30{
+	margin-left: 30px;
 }
