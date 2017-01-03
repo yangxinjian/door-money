@@ -158,6 +158,23 @@ html, body {
             height: 170px; }
             #wrap #content section.bgcolor-gray ul li .topimg img {
               margin-top: 15%; }
+            #wrap #content section.bgcolor-gray ul li .topimg .iconfont {
+              line-height: 100px;
+              font-size: 50px;
+              color: #b63f80;
+              border: 2px solid #fff;
+              border-radius: 50%;
+              width: 100px;
+              height: 100px;
+              display: inline-block;
+              top: 48px;
+              position: relative;
+              transition: all .3s ease; }
+              #wrap #content section.bgcolor-gray ul li .topimg .iconfont:hover {
+                background-color: #b63f80;
+                border-color: #b63f80;
+                color: #fff;
+                transition: all .3s ease; }
           #wrap #content section.bgcolor-gray ul li .bottomword {
             text-align: center;
             color: #656363;
