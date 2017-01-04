@@ -1,13 +1,36 @@
 $(function() {
-	var imgArr = ["img/img11.gif","img/img22.gif","img/img33.gif","img/img44.gif","img/img55.gif","img/img66.gif","img/img77.gif","img/img88.gif"];
+	var modelArr = $('.model');
+	var pic_1 = $('.pic-1'),
+		pic_2 = $('.pic-2'),
+		pic_3 = $('.pic-3'),
+		pic_4 = $('.pic-4');
 
-	var liArr = $('.bgcolor-gray ul li');
-	var imgArrs = $('.bgcolor-gray ul li div img') 
+	pic_1.mouseover(function(){
+		$(modelArr[0]).css("display","block");
+	});
 
-	for(var i = 0;i < liArr.length;i++){
-		liArr.mouseover(function(){
-			imgArrs[i].html('src',imgArr[i]);
-		})
-	}
+	pic_1.mouseout(function(){
+		$(modelArr[0]).css("display","none");
+	});
+	pic_2.mouseover(function(){
+		$(modelArr[1]).css("display","block");
+	});
 
+	pic_2.mouseout(function(){
+		$(modelArr[1]).css("display","none");
+	});
+	pic_3.mouseover(function(){
+		$(modelArr[2]).css("display","block");
+	});
+
+	pic_3.mouseout(function(){
+		$(modelArr[2]).css("display","none");
+	});
+	pic_4.mouseover(function(){
+		$(modelArr[3]).css("display","block");
+	});
+
+	pic_4.mouseout(function(){
+		$(modelArr[3]).css("display","none");
+	});
 })

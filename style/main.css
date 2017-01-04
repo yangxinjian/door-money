@@ -131,7 +131,7 @@ html, body {
             color: #595656;
             text-decoration: none;
             text-align: left;
-            padding-left: 3%; }
+            padding-left: 2%; }
     #wrap #content section.bgcolor-gray {
       background: #eeeeed !Important;
       height: 1100px; }
@@ -185,76 +185,141 @@ html, body {
               color: #595656;
               font-size: 16px;
               text-decoration: none; }
-    #wrap #content .pic {
-      width: 90%;
-      height: 660px;
-      margin: 0 auto; }
-      #wrap #content .pic .pic_top {
-        width: 100%;
-        height: 320px;
-        margin-bottom: 30px;
-        float: left; }
-        #wrap #content .pic .pic_top .pic_top_left {
-          position: relative;
-          width: 60%;
+    #wrap #content .newHeight {
+      height: 1000px; }
+      #wrap #content .newHeight .pic {
+        width: 90%;
+        height: 660px;
+        margin: 0 auto; }
+        #wrap #content .newHeight .pic .pic_top {
+          width: 100%;
           height: 320px;
-          float: left;
-          margin-right: 30px; }
-          #wrap #content .pic .pic_top .pic_top_left img {
-            width: 100%;
-            height: 100%; }
-          #wrap #content .pic .pic_top .pic_top_left .model {
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%;
-            color: #fff; }
-            #wrap #content .pic .pic_top .pic_top_left .model article {
-              width: 50%;
-              height: 50%;
-              margin: 10% auto;
-              text-align: center; }
-              #wrap #content .pic .pic_top .pic_top_left .model article span {
-                font-size: 20px;
-                font-weight: bold;
-                color: #fff;
-                text-decoration: none; }
-              #wrap #content .pic .pic_top .pic_top_left .model article img {
-                width: 45px;
-                height: 45px;
-                margin-top: 30px; }
-        #wrap #content .pic .pic_top .pic_top_right {
-          width: 30%;
-          height: 320px;
-          float: left;
-          position: relative; }
-          #wrap #content .pic .pic_top .pic_top_right img {
-            width: 100%;
-            height: 100%; }
-          #wrap #content .pic .pic_top .pic_top_right .model {
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%; }
-            #wrap #content .pic .pic_top .pic_top_right .model article {
-              width: 50%;
-              height: 50%;
-              margin: 25% auto;
-              text-align: center;
+          margin-bottom: 30px;
+          float: left; }
+          #wrap #content .newHeight .pic .pic_top .pic_top_left {
+            position: relative;
+            width: 60%;
+            height: 320px;
+            float: left;
+            margin-right: 30px; }
+            #wrap #content .newHeight .pic .pic_top .pic_top_left img {
+              width: 100%;
+              height: 100%; }
+            #wrap #content .newHeight .pic .pic_top .pic_top_left .model {
+              position: absolute;
+              display: none;
+              top: 0;
+              left: 0;
+              background: rgba(0, 0, 0, 0.4);
+              cursor: pointer;
+              width: 100%;
+              height: 100%;
               color: #fff; }
-              #wrap #content .pic .pic_top .pic_top_right .model article span {
-                font-size: 20px;
-                font-weight: bold;
-                color: #fff;
-                text-decoration: none; }
-              #wrap #content .pic .pic_top .pic_top_right .model article img {
-                width: 45px;
-                height: 45px;
-                margin-top: 30px; }
+              #wrap #content .newHeight .pic .pic_top .pic_top_left .model article {
+                width: 50%;
+                height: 50%;
+                margin: 10% auto;
+                text-align: center; }
+                #wrap #content .newHeight .pic .pic_top .pic_top_left .model article span {
+                  font-size: 20px;
+                  font-weight: bold;
+                  color: #fff;
+                  text-decoration: none; }
+                #wrap #content .newHeight .pic .pic_top .pic_top_left .model article img {
+                  width: 45px;
+                  height: 45px;
+                  margin-top: 30px; }
+          #wrap #content .newHeight .pic .pic_top .pic_top_right {
+            width: 30%;
+            height: 320px;
+            float: left;
+            position: relative; }
+            #wrap #content .newHeight .pic .pic_top .pic_top_right img {
+              width: 100%;
+              height: 100%; }
+            #wrap #content .newHeight .pic .pic_top .pic_top_right .model {
+              position: absolute;
+              display: none;
+              top: 0;
+              left: 0;
+              background: rgba(0, 0, 0, 0.4);
+              cursor: pointer;
+              width: 100%;
+              height: 100%; }
+              #wrap #content .newHeight .pic .pic_top .pic_top_right .model article {
+                width: 50%;
+                height: 50%;
+                margin: 25% auto;
+                text-align: center;
+                color: #fff; }
+                #wrap #content .newHeight .pic .pic_top .pic_top_right .model article span {
+                  font-size: 20px;
+                  font-weight: bold;
+                  color: #fff;
+                  text-decoration: none; }
+                #wrap #content .newHeight .pic .pic_top .pic_top_right .model article img {
+                  width: 45px;
+                  height: 45px;
+                  margin-top: 30px; }
+    #wrap #content .media {
+      width: 100%;
+      height: 920px;
+      margin: 0 auto;
+      background: #eeeeed !Important; }
+      #wrap #content .media h1 {
+        margin-top: 0;
+        padding-top: 150px; }
+      #wrap #content .media ul {
+        width: 60%;
+        height: 400px;
+        margin: 30px auto; }
+        #wrap #content .media ul li {
+          width: 32%;
+          height: 100%;
+          margin-top: 30px;
+          float: left;
+          list-style: none;
+          padding-right: 1%;
+          text-align: center;
+          background: url("../img/libg.gif") no-repeat right; }
+          #wrap #content .media ul li div {
+            width: 90px;
+            height: 25px;
+            background: #b63f80;
+            margin: 0 auto;
+            margin-bottom: 10%;
+            margin-top: 15%;
+            color: #fff;
+            line-height: 25px; }
+        #wrap #content .media ul .bgnone {
+          background: none !Important; }
+    #wrap #content .last-part {
+      height: 350px !Important;
+      position: relative; }
+      #wrap #content .last-part ul {
+        width: 50%;
+        height: 150px;
+        margin: 60px auto; }
+        #wrap #content .last-part ul li {
+          width: 31%;
+          text-align: center;
+          float: left;
+          list-style: none;
+          font-size: 14px; }
+          #wrap #content .last-part ul li img {
+            width: 25px;
+            height: 25px; }
+      #wrap #content .last-part div {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 50%;
+        margin-left: -25px;
+        top: 320px;
+        cursor: pointer; }
+    #wrap #content .gray {
+      background: #eeeeed !Important;
+      height: 200px; }
 
 .ml30 {
   margin-left: 30px; }
